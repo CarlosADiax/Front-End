@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <!-- El cliente de la pastelería tendrá la posibilidad de combinar sabores dependiendo de sus preferencias.
+    El cliente de la pastelería tendrá la posibilidad de combinar adornos dependiendo de sus preferencias.
+    El cliente de la pastelería necesita poner en un formulario su pedido.
+
+    El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, 
+    Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos. -->
+    <img src="./assets/images/logoPasteleria.png" alt="Logo Pastelería" width="150px">
+    <h1>Pedido</h1>
+    <hr>
+    <form action="Post">
+        <h2>Datos del cliente</h2>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre"><br>
+        <label for="Teléfono">Teléfono:</label>
+        <input type="text" name="Teléfono" id="Teléfono" placeholder="Escribe tu número telefonico" maxlength="10"><br>
+        <label for="Correo">Correo Electrónico:</label>
+        <input type="email" name="Correo" id="Correo" placeholder="Escribe tu Correo Electrónico" ><br>
+        <hr>
+        <h2>Descripción del pastel</h2>
+
+        <p>Tipo de pastel</p>
+        <input type="radio" name="pastel" id="Pastel_esponjoso" value="Pastel esponjoso">
+        <label for="Pastel_esponjoso">Pastel esponjoso</label><br>
+        <input type="radio" name="pastel" id="Pastel_mantequilla" value="Pastel de mantequilla">
+        <label for="Pastel_mantequilla">Pastel de mantequilla</label><br>
+        <input type="radio" name="pastel" id="Pastel_merengue" value="Pastel de merengue">
+        <label for="Pastel_merengue">Pastel de merengue</label><br>
+        <input type="radio" name="pastel" id="Pastel_fermentado" value="Pastel fermentado">
+        <label for="Pastel_fermentado">Pastel fermentado</label><br>      
+        <input type="radio" name="pastel" id="Pastel_natilla" value="Pastel natilla">
+        <label for="Pastel_natilla">Pastel natilla</label><br>
+
+        <p>Sabor <br>Selecciona el/los sabor(es) del pastel</p>
+        <input type="checkbox" name="sabores" id="Nutella" value="Nutella">
+        <label for="Nutella">Nutella</label>
+        <input type="checkbox" name="sabores" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+        <input type="checkbox" name="sabores" id="Fresa" value="Fresa">
+        <label for="Fresa">Fresa</label>
+        <input type="checkbox" name="sabores" id="Durazno" value="Durazno">
+        <label for="Durazno">Durazno</label><br>
+        <input type="checkbox" name="sabores" id="Rojos" value="Frutos rojos">
+        <label for="Rojos">Frutos rojos</label>
+        <input type="checkbox" name="sabores" id="Limon" value="Limón">
+        <label for="Limon">Limón</label><br>
+        <input type="checkbox" name="sabores" id="leche" value="Tres leches">
+        <label for="leche">Tres leches</label>
+        <input type="checkbox" name="sabores" id="ChoBlanco" value="Chocolate blanco">
+        <label for="ChoBlanco">Chocolate blanco</label><br>
+
+        <p>Adorno</p>
+        <input type="checkbox" id="P3Leches" name="adorno" value="Pastel 3 leches">
+        <label for="P3Leches"><img src="assets/images/3 leches.jfif" alt="Pastel 3 leches" width="150px"></label>
+        <input type="checkbox" id="PFresa" name="adorno" value="Pastel de Fresa">
+        <label for="PFresa"><img src="assets/images/fresa.jfif" alt="Pastel de fresa" width="150px"></label><br>
+        <input type="checkbox" id="PGalleta" name="adorno" value="Pastel de galleta">
+        <label for="PGalleta"><img src="assets/images/galleta.jfif" alt="Pastel de galleta" width="150px"></label>
+        <input type="checkbox" id="PNutella" name="adorno" value="Pastel de nutella">
+        <label for="PNutella"><img src="assets/images/nutella.jfif" alt="Pastel de nutella" width="150px"></label><br>
+        <br>
+        <input type="button" value="Enviar pedido">
+    </form>
+    <hr>
+    <h3>Contactanos</h3>
+    <ul>
+        <li>Facebook/PastPastel</li>
+        <li>Twitter/PastPastel</li>
+        <li>Dirección: 61 Fishtrap Branch Whick Road
+            Lost Creek, KY 41348 USA</li>
+        <li>Telefono: 7574257258</li>
+    </ul>
+</body>
+</html>
