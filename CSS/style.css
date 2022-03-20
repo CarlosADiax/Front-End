@@ -1,0 +1,366 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header part */
+header{
+    padding: 2em;
+}
+#navi{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#logo{
+    font-size: 1.5em;
+    float: left;
+    color: rgb(50, 82, 208);
+}
+#navi li{
+    display: inline;
+    color: gray;
+    float: right;
+    font-size: 1.1em;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+#navi input{
+    background-color: rgb(56, 56, 255);
+    border-radius: 10px;
+    border-color: rgb(56, 88, 214);
+    color: white;
+    font-size: 1.1em;
+    padding: 0.3em;
+    margin-top: -0.5em;
+}
+/* first aside/image */
+#side1{
+    float: right;
+}
+#side1 img{
+    height: 600px;
+    width: 650px;
+}
+/* first section */
+#section1{
+    padding-right: 4em;
+    padding-left: 5em;
+    padding-top: 4em;
+    width: 550px;
+    
+}
+#section1 h1{
+    font-size: 4em;
+    color: rgb(31, 62, 114);
+}
+#s1virus{
+    font-size: 1.3em;
+    color: rgb(109, 123, 147);
+}
+#section1 li{
+    color: rgb(45, 74, 123);
+    display: inline;
+    font-size: 1em;
+    padding-right: 3em;
+}
+#s1img{
+    margin-right: 0.6em;
+    width: 1em;
+}
+#s1sche img{
+    margin-top: 4em;
+    margin-right: 0.6em;
+    width: 0.8em;
+}
+#s1sche {
+    color: rgb(31, 62, 114);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+/* second section date,location,vaccine  */
+#section2{
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    justify-content: center;
+    margin-bottom: 3em;
+    margin-left: 8em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    position: relative;
+    width: 660px;
+}
+#section2 input[type='button']{
+    background-color: rgb(56, 56, 255);
+    border-radius: 10px;
+    border-color: rgb(56, 88, 214);
+    color: white;
+    font-size: 1.1em;
+    margin-top: -1.5em;
+    margin-left: 1em;
+    padding: 0.5em;
+    position: absolute;
+}
+#section2 img{
+    width: 0.8em;
+}
+#date,#typeVaccine{
+    margin-left: 7em;
+}
+#section2 input[type='text']{
+    color: rgb(31, 62, 114);
+    font-weight: bold;
+    margin-left: 1em;
+}
+#section2 label{
+    font-size: 1em;
+    color: rgb(109, 123, 147);
+}
+/* third section imgs */
+#section3{
+    justify-content: center;
+    text-align: center;
+} 
+#section3 img{
+    filter: grayscale(100%);
+    opacity: 0.2;
+    padding: 2em;
+    width: 200px;
+}
+/* fouth section the articules */
+#section4{
+    margin: 4em;
+}
+
+#s4art1 h2{
+    color: rgb(31, 62, 114);
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+/* fifth section */
+#section5{
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 8em;
+}
+#section5 img{
+    margin-bottom: 2em;
+
+    width: 2em;
+}
+#s4art1 p{
+    color: rgb(109, 123, 147);
+}
+#s4art2, #s4art3, #s4art4, #s4art5{
+    box-shadow: 5px 5px 5px #aaaaaa;
+    display: inline-block;
+    height: 15em;
+    justify-content: top;
+    margin-left: 0.8em;
+    padding: 1em;
+    vertical-align: top;
+    width: 20%;
+}
+h3{
+    color: rgb(31, 62, 114);
+}
+#s4art2, #s4art3, #s4art4, #s4art5 p{
+    color: rgb(109, 123, 147);
+}
+
+/* aside 2 */
+#side2 img{
+    height: 650px;
+    width: 50vw;
+}
+#side2{
+    float: left;
+}
+
+/* sixth section */
+#section6{
+    padding-left: 2em;
+    padding-top: 2em;
+    width: 530px;
+    display: inline-block;
+    vertical-align: top;
+}
+#section6 h2{
+    color: rgb(31, 62, 114);
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#section6 p{
+    color: rgb(109, 123, 147);
+    margin-bottom: 4em;
+}
+#s6art2,#s6art1,#s6art3,#s6art4,#s6art5{
+    margin-left: 4em;
+    margin-top: 2.4em;
+    margin-right: 2.4em;
+    margin-bottom: 2.4em;
+}
+
+#stress{
+    margin-top: 1em;
+    /* display: none; */
+}
+/* #s6art2:hover #stress{
+    display: block;
+} */
+
+/* aside 3 */
+#side3 img{
+    height: 650px;
+    width: 49vw;
+}
+#side3{
+    float: right;
+}
+
+/*seventh section  */
+#section7{
+    padding-right: 2em;
+    padding-left: 5em;
+    padding-top: 3.5em;
+    width: 550px;
+}
+#section7 h2{
+    color: rgb(31, 62, 114);
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-top: 3.5em;
+    margin-bottom: 1em;
+}
+#section7 p{
+    color: rgb(109, 123, 147);
+    margin-bottom: 4em;
+}
+
+/*eight section  */
+#section8{
+    padding-right: 2em;
+    padding-left: 5em;
+    width: 550px;
+}
+#s8artCall,#s8artVCall,#s8artChat,#s8artMess{
+    display: inline-block;
+    margin-top: 1.2em;
+    width: 40%;
+}
+#s8artCall img{
+    position: absolute;
+    width: 3em;
+}
+#s8artChat img{
+    position: absolute;
+    width: 3em;
+}
+#s8artVCall img{
+    position: absolute;
+    width: 3em;
+}
+#s8artMess img{
+    position: absolute;
+    width: 3em;
+}
+#s8artCall label{
+    margin-left: 4.5em;
+}
+#s8artChat label{
+    margin-left: 4.5em;
+}
+#s8artVCall label{
+    margin-left: 4.5em;
+}
+#s8artMess label{
+    margin-left: 4.5em;
+}
+#s8artCall input[type="Button"]{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 1.5em;
+    width: 98%;
+}
+#s8artChat input[type="Button"]{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 1.5em;
+    width: 98%;
+}
+#s8artVCall input[type="Button"]{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 1.5em;
+    width: 98%;
+}
+#s8artMess input[type="Button"]{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 1.5em;
+    width: 98%;
+}
+.etiq{
+    color: rgb(31, 62, 114);
+}
+.numer{
+    color: rgb(109, 123, 147);
+}
+.commu:hover {
+    background-color: rgb(53, 85, 211);
+    color: white;
+    display: block;
+}
+
+/* footer */
+#footer{
+    background-color: rgb(238, 243, 255);
+    margin-top: 3em;
+    width: 98vw;
+}
+#f1{
+    display: inline-block;
+    margin: 4em;
+    width: 35%;
+}
+#f1 p{
+    color: rgb(109, 123, 147);
+}
+#f1 h2{
+    color: rgb(50, 82, 208);
+    margin-bottom: 1em;
+}
+#f2,#f3,#f4{
+    display: inline-block;
+    margin-top: 4em;
+    width: 15%;
+    vertical-align: top;
+}
+.ul{
+    list-style: none;
+}
+.lis{
+    color: rgb(109, 123, 147);
+    margin-top: 1.2em;
+}
+.ul2 li{
+    color: rgb(109, 123, 147);
+    display: inline;
+}
+.ul2{
+    list-style: none;
+}
+#copy{
+    margin-left: 4em;
+    padding-right: 28em;
+}
+#terms{
+    padding-right: 2em;
+}
