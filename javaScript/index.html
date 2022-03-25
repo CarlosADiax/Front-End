@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <form action="" onsubmit="fetchPokemon(event)">
+        <img src="./img/pokedeex.png" alt="" id="pokedex"><br>
+        <input type="text" name="Nombre" placeholder="Escribe el nombre del Pokemon" id="Nombre" autocomplete="off"><br>
+    </form>
+    <section id="information">
+        <article id="imagePokemon">
+            <h2 id="pokeName">Pokemon</h2>
+            <img src="./img/pokeball.png" alt="Pokeball" id="pokeballImg">
+        </article>
+        <article id="pokemonId"></article>
+        <article id="pokemonType"></article>
+        <article id="pokemonStats"></article>
+
+    </section>
+    <!-- <button id="buscar" onclick="fetchPokemon(event)">Buscar</button> -->
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
